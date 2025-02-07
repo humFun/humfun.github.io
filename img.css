@@ -1,0 +1,44 @@
+.icon-svg {
+    transition: transform 0.3s ease, color 0.3s ease, stroke 0.3s ease;
+    color: #c5c0c0; /*สีเริ่มต้น*/
+    
+}
+
+.icon-svg:hover {
+    transform: scale(1.5); /* ขยายขนาดหรือลดลง เมื่อ hover */
+    color: tomato;
+}
+.css3:hover {
+    transform: scale(1.5); /* ขยายขนาดหรือลดลง เมื่อ hover */
+    color: #254BDD;
+}
+.js:hover {
+    transform: scale(1.5); /* ขยายขนาดหรือลดลง เมื่อ hover */
+    color: #E8D44D;
+}
+.sketchup:hover {
+    transform: scale(1.5); /* ขยายขนาดหรือลดลง เมื่อ hover */
+    color: #015C9A;
+}
+.ux_ui:hover{
+    transform: scale(1.5); /* ขยายขนาดหรือลดลง เมื่อ hover */
+    color: #28343b;
+}
+.respon:hover{
+    transform: scale(1.5); /* ขยายขนาดหรือลดลง เมื่อ hover */
+    color: #000000;
+}
+
+
+/* image javascript images-container*/
+
+.project-image {
+   
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .project-image.visible {
+    opacity: 1;
+  }
+
